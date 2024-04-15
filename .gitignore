@@ -178,3 +178,9 @@ test.py
 configs/*.py
 
 
+configs/configs/basic_config.py
+configs/configs/kb_config.py
+configs/configs/model_config.py
+configs/configs/prompt_config.py
+configs/configs/server_config.py
+webui.py

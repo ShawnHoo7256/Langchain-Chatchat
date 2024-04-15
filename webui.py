@@ -15,13 +15,14 @@ if __name__ == "__main__":
     is_lite = "lite" in sys.argv
 
     st.set_page_config(
-        "Langchain-Chatchat WebUI",
-        os.path.join("img", "chatchat_icon_blue_square_v2.png"),
+        "管网智策",
+        # os.path.join("img", "chatchat_icon_blue_square_v2.png"),
+        os.path.join("img", "logo-GJGWRAGBot-v3.png"),
         initial_sidebar_state="expanded",
         menu_items={
-            'Get Help': 'https://github.com/chatchat-space/Langchain-Chatchat',
-            'Report a bug': "https://github.com/chatchat-space/Langchain-Chatchat/issues",
-            'About': f"""欢迎使用 Langchain-Chatchat WebUI {VERSION}！"""
+            'Get Help': 'https://wap.weact.pipechina.com.cn/docx/doxrhf6WjmJR76I2xpB4fW3fCze',
+            # 'Report a bug': "https://github.com/chatchat-space/Langchain-Chatchat/issues",
+            'About': f"""欢迎使用 管网智策 大模型助手😊 {VERSION}！"""
         }
     )
 
@@ -40,7 +41,7 @@ if __name__ == "__main__":
         st.image(
             os.path.join(
                 "img",
-                "logo-long-chatchat-trans-v2.png"
+                "logo-GJGWRAGBot-v3.png"
             ),
             use_column_width=True
         )
